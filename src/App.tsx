@@ -90,11 +90,6 @@ export default function App() {
           <div className="flex items-start gap-3">
             <div className="p-2 bg-cyan-950/80 rounded-lg text-cyan-400 mt-0.5 sm:mt-0">
               <Shield size={16} />
-            </div>
-            <div className="text-xs font-sans text-zinc-350 max-w-2xl leading-relaxed">
-              <span className="font-semibold text-zinc-100">Private Processing:</span> Your camera frames are analyzed server-side with zero persistent storage. Configure third-party environment variables through the Google AI Studio settings to securely connect your private secrets.
-            </div>
-          </div>
         </div>
 
         {/* Workspace Splitting Layout */}
