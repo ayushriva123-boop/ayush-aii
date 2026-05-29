@@ -1,0 +1,6 @@
+{
+  "name": "Live Face Demographic & Smart Assistant",
+  "description": "Real-time camera analytics utilizing Gemini 3.5 Flash to estimate age, gender, and deliver dynamic, personalized style, skincare, and wellness recommendations.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
