@@ -90,6 +90,11 @@ export default function App() {
           <div className="flex items-start gap-3">
             <div className="p-2 bg-cyan-950/80 rounded-lg text-cyan-400 mt-0.5 sm:mt-0">
               <Shield size={16} />
+            </div>
+            <div className="text-xs font-sans text-zinc-350 max-w-2xl leading-relaxed">
+            </div>
+          </div>
+        </div>
 
         {/* Workspace Splitting Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
