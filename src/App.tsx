@@ -86,15 +86,7 @@ export default function App() {
       {/* Main Dynamic Workspace grid */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-8 sm:px-6 lg:px-8 flex flex-col gap-8">
         {/* API Key instruction banner if needed */}
-        <div className="bg-cyan-950/20 border border-cyan-900/30 rounded-2xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div className="flex items-start gap-3">
-            <div className="p-2 bg-cyan-950/80 rounded-lg text-cyan-400 mt-0.5 sm:mt-0">
-              <Shield size={16} />
-            </div>
-            <div className="text-xs font-sans text-zinc-350 max-w-2xl leading-relaxed">
-            </div>
-          </div>
-        </div>
+       
 
         {/* Workspace Splitting Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
