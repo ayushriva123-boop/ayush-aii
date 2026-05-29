@@ -249,11 +249,8 @@ export default function App() {
       {/* Footer copyright */}
       <footer className="border-t border-zinc-900 bg-zinc-950/40 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-550 font-sans">
-          <p>© 2026 Spectra Demographics Engine. Built with Gemini 3.5 & Google Cloud.</p>
           <div className="flex items-center gap-4">
-            <span className="hover:text-zinc-400 cursor-help" title="Encrypted real-time stream processing">Security Assured</span>
             <span className="text-zinc-800">•</span>
-            <span className="hover:text-zinc-400 cursor-help" title="Using Google Antigravity server pipeline">Cloud Run Native</span>
           </div>
         </div>
       </footer>
